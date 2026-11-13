@@ -1,0 +1,6 @@
+#fp-result{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#f7f9f5;border:1px solid var(--line);border-radius:7px;padding:12px;margin-top:12px;color:#405c4a}
+#fp-result code{font:12px/1.6 ui-monospace,monospace;overflow-wrap:anywhere;color:#193530}
+#fp-result button{font-size:10px;padding:5px 9px}
+#fp-compare-result{align-self:center}
+#visitor-poc .toolbar:last-of-type{align-items:center}
+@media(max-width:760px){#visitor-poc .section-title{flex-direction:column}#visitor-poc .toolbar:last-of-type{align-items:stretch}#fp-compare-result{align-self:flex-start}}
